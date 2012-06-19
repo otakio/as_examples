@@ -1,0 +1,1 @@
+﻿package  {	//MovieClipクラスを使いたいのでMovieClipクラスを「インポート」します。MovieClipという項目を辞書で引いて、そこにある言葉を使いますよというぐらいの意味。	import flash.display.MovieClip;		//SetupExamleクラスはMovieClipクラスを継承しますよ、という宣言。	public class SetupExample extends MovieClip{		public function SetupExample() {			// constructor code			//FlaファイルからこのASクラスが呼ばれた時にメッセージを出力			trace("Fla and AS are Linked!");		}	}	}
