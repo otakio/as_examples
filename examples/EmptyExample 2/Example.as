@@ -1,1 +1,0 @@
-﻿package  {	import flash.display.MovieClip;	import flash.events.Event;		public class Example extends MovieClip{				public function Example() {			// constructor code			this.addEventListener(Event.ENTER_FRAME, loop);					}		function loop(e:Event):void{		}	}	}
